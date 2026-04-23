@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <form action="https://qfqdkj.hospedagemelastica.com.br/pweb/salvar.jsp" method="post">
+        <h1>Cadastro</h1>
+
+        Login:<br>
+        <input type="text" name="login"><br>
+
+        <br>
+        Senha:<br>
+        <input type="text" name="senha"><br>
+
+        <br>
+        Confirme a senha:<br>
+        <input type="text" name="csenha"><br>
+
+        <br>
+        Nome:<br>
+        <input type="text" name="nome"><br>
+
+        <br>
+        Sexo:<br>
+        <input type="radio" value="masculino" name="sexo">Masculino<br>
+        <input type="radio" value="feminino" name="sexo">Feminino<br>
+        <input type="radio" value="prefironãodizer" name="sexo">Prefiro não dizer<br>
+
+        <br>
+        Email:<br>
+        <input type="email" name="email"><br>
+
+        <br>
+        Interesses:<br>
+        <input type="checkbox" value="Futebol" name="interesses">Futebol<br>
+        <input type="checkbox" value="Politica" name="interesses">Politica<br>
+        <input type="checkbox" value="Economia" name="interesses">Economia<br>
+        <input type="checkbox" value="Carros" name="interesses">Carros<br>
+        <input type="checkbox" value="Celebridades" name="interesses">Celebridades<br>
+
+        <br>
+        Estado:<br>
+        <select name="estado" id="estado">
+            <option value="AM">Amazonas</option>
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GODF">Goiás e Distrito Federal</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+        </select>
+
+        <br><br>
+        Observações:<br>
+        <textarea id="obs" name="observações" rows="4" cols="50">
+        </textarea>
+
+        <br>
+        <br>
+        <input type="submit" value="Enviar" name="submit">
+    </form>
+</body>
+</html>
