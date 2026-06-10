@@ -1,0 +1,36 @@
+.header {
+    background-color: rgb(147, 220, 136);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.body {
+    color: rgb(40, 40, 40);
+    font-family: 'Times New Roman', Times, serif;
+    width: 80%;
+    float: right;
+    text-align: justify;
+}
+
+.sidebar {
+    width: 15%;
+    background-color: rgb(186, 186, 186);
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.footer {
+    background-color: rgb(42, 42, 42);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
