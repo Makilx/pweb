@@ -5,6 +5,8 @@
     padding-left: 10px;
     padding-right: 10px;
     margin: 20px;
+    float: left;
+    flex-wrap: wrap;
 
     font-family: "opensans-regular", arial, sans-serif;
     color: #333;
@@ -19,4 +21,13 @@
 .noticia h1 {
     font-family: "Helvetica Neue", Arial, sans-serif;
     color: #c4170c;
+}
+
+.noticia img {
+    padding: 10px;
+    float: left;
+}
+
+.galeria-link {
+    float: right
 }
