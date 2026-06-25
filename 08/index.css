@@ -1,3 +1,7 @@
+.container {
+    float: right;
+}
+
 .noticia {
     background: linear-gradient(170deg, rgba(255, 247, 247, 1) 0%, rgb(255, 173, 173) 100%);
     border: 1px solid black;
