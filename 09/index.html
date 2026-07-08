@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 09</title>
+    <style type="text/css">
+        body {
+            background: rgb(97, 189, 140);
+        }
+
+        #conteudo {
+            background: rgb(255, 255, 255);
+            padding: 10px;
+            width: 900px;
+            margin: 30px 100px;
+        }
+
+        .caixa {
+            background: red;
+            margin: 10px;
+            width: 100px;
+            height: 100px;
+            color: white;
+        }
+
+        #relativo {
+            position: relative;
+            left: 30px;
+        }
+
+        #absoluto {
+            position: absolute;
+            left: 30px;
+        }
+
+        #fixo {
+            position: fixed;
+            left: 200px;
+            top: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <span>
+        Container Body<br>
+        <a href="extra.html">Extra!</a>
+    </span>
+    <div id="conteudo">
+        Container Div
+
+        <div class="caixa" id="relativo">Relativo</div>
+        <div class="caixa" id="absoluto">Absoluto</div>
+        <div class="caixa" id="fixo">Fixo</div>
+    </div>
+</body>
+
+</html>
